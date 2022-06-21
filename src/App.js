@@ -9,7 +9,7 @@ function App() {
   const[userLogError, setUserLogError]= useState("");
   
   const Login=details=>{
-    console.log(details);
+    
     if(details.name==loginDetails.userName && details.password==loginDetails.pw){
       setUserLog({
         name: details.name
